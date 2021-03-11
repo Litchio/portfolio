@@ -146,6 +146,7 @@ iframe {
 #about p{
 	font-size: 1.5rem;
 	margin: auto 8% 6%;
+	text-align: left;
 }
 
 /* ### projects section styling ###  */
