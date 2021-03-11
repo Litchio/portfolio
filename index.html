@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lars Zimmer - Portfolio</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+  />
+  <link rel="icon" 
+  type="image/png" 
+  href="resources/favicon.ico">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <a id="logo_lnk" href="http://larszimmer.azzw.de"><img src="/resources/logo.png"></a>
+    <ul id="nav-list">
+      <li><a href="#about-section" class="nav-link"><i class="fas fa-address-card"></i> About</a></li>
+      <li><a href="#cv-section" class="nav-link"><i class="fas fa-graduation-cap"></i> CV</a></li>
+      <li><a href="#projects-section" class="nav-link"><i class="fas fa-laptop-code"></i> Work</a></li>
+      <li><a href="#contact-section" class="nav-link"><i class="fas fa-mobile-alt"></i> Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div id="welcome-section">
+      <div id="greeting">
+        <h1>Hello there.<br>I am Lars.</h1>
+        <p>an applied informatics undergrad</p>
+      </div>
+    </div>
+    <div id="about-section">
+      <iframe src="about.html" onload="resizeIframe(this)"></iframe>
+    </div>
+    <div id="cv-section">
+     <iframe src="emb-cv.html" onload="resizeIframe(this)"></iframe>
+   </div>
+   <div id="projects-section">
+     <iframe src="projects.html" onload="resizeIframe(this)"></iframe>
+   </div>
+   <div id="contact-section">
+    <iframe src="contact.html" onload="resizeIframe(this)"></iframe>
+  </div>
+</main>
+</body>
+</html>
