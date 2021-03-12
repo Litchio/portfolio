@@ -149,22 +149,33 @@ iframe {
 	text-align: left;
 }
 
-/* For all <code> */
 code {
-  font-family: MyFancyCustomFont, monospace;
+  font-family: monospace;
   font-size: inherit;
 }
 
-/* Code in text */
-p > code,
-li > code,
-dd > code,
-td > code {
-  background: #ffeff0;
-  word-wrap: break-word;
-  box-decoration-break: clone;
-  padding: .1rem .3rem .2rem;
-  border-radius: .2rem;
+.code {
+	background-color: #383838;
+}
+
+.keyword {
+	color: #B3772F;
+}
+
+.function {
+	color: #FFC557;
+}
+
+.string {
+	color: #2b5934;
+}
+
+.text {
+	color: #D7D7D7;
+}
+
+.number {
+	color: #2A508E;
 }
 
 /* ### projects section styling ###  */
